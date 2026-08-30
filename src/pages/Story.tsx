@@ -211,7 +211,7 @@ export const Story: React.FC = () => {
                 onClick={() => { setChapter(i); setFinished(false); }}
                 style={{
                   padding: '10px', borderRadius: '14px', textAlign: 'left',
-                  border: 'none', cursor: 'pointer',
+                  cursor: 'pointer',
                   background: active ? '#f59e0b' : past ? 'rgba(254,243,199,0.8)' : '#fff',
                   color: active ? '#fff' : '#78350f',
                   border: `1px solid ${active ? '#d97706' : 'rgba(212,160,23,0.2)'}`,
