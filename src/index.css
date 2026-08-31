@@ -1,43 +1,11 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* ==========================================
    VAMANAN GPT — Global Styles
    Kerala/Onam Cultural Design System
    ========================================== */
-
-/* Custom theme tokens for Tailwind v4 */
-@theme {
-  --color-amber-50: #fffbeb;
-  --color-amber-100: #fef3c7;
-  --color-amber-200: #fde68a;
-  --color-amber-300: #fcd34d;
-  --color-amber-400: #fbbf24;
-  --color-amber-500: #f59e0b;
-  --color-amber-600: #d97706;
-  --color-amber-700: #b45309;
-  --color-amber-800: #92400e;
-  --color-amber-900: #78350f;
-  --color-amber-950: #451a03;
-
-  --color-kerala-gold: #d4a017;
-  --color-kerala-gold-light: #f0c940;
-  --color-kerala-gold-dark: #a07810;
-  --color-kerala-cream: #fdf6e3;
-  --color-kerala-brown: #5c3d11;
-  --color-kerala-orange: #e07b39;
-  --color-kerala-bg: #fdf3d8;
-  --color-kerala-warm: #fef9e7;
-
-  --font-playfair: "Playfair Display", serif;
-  --font-poppins: "Poppins", sans-serif;
-
-  --animate-float: vamanan-float 3s ease-in-out infinite;
-  --animate-spin-slow: spin-slow 20s linear infinite;
-  --animate-fade-in-up: fade-in-up 0.5s ease forwards;
-  --animate-pulse-gold: pulse-gold 2s infinite;
-  --animate-fall-petal: fall-petal linear infinite;
-  --animate-typing: typing-dots 1.4s ease-in-out infinite;
-}
 
 /* ========================================== */
 /* RESET & BASE                               */
